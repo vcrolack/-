@@ -1,0 +1,70 @@
+/* Background */
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+section{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(-45deg, #31cd5b 0%, #39cd31 13%, #31cd31 25%, #31cd55 38%, #31CD4F 50%, #31CD60 62%, #31CD71 75%, #31CD81 87%, #31CD94 100%);;
+  background-size: 400% 400%;
+  position: relative;
+  animation: animate 7.5s ease-in-out infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  background: rgba(255,255,255,.2);
+  padding: 20px;
+  font-size: 50px;
+  border-radius: 10px;
+}
+
+@keyframes animate{
+  0%{
+    background-position: 0 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0 50%;
+  }
+}
+
+.container-letter {
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.container-intro {
+    width: 100%;
+    height: auto;
+}
+
+.container-intro-text {
+    width: 60%;
+    height: auto;
+}
+
+.btn-love {
+    background-color: #FF8EEE;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-love:hover {
+    background-color: #f5a2ee;
+}
